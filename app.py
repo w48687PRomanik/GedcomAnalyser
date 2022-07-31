@@ -9,4 +9,7 @@ def home():
 @app.route('/register')
 def register():
     return render_template('register.html')
-    
+
+@app.route('/task')
+def task():
+    return render_template('createTask.html')
